@@ -39,3 +39,15 @@
 
 # debug information files
 *.dwo
+
+*.user
+*.log
+*.recipe
+*.iobj
+*.ipdb
+*.txt
+*.json
+*.tlog
+*.idb
+*.command
+/.vs
