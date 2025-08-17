@@ -12,87 +12,111 @@
     <Filter Include="ヘッダーファイル">
       <UniqueIdentifier>{b175751c-ecdb-4075-abaf-89a2180ccaa1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Entity">
+      <UniqueIdentifier>{1445e8cc-d054-435b-ad64-380beba610b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Entity">
+      <UniqueIdentifier>{d8008eee-0289-4f48-baee-05523fe1f482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{e87dd4f3-b3c2-49df-981c-22683146e082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{1b76aea7-f5c1-4cfb-9725-edbf5bff08a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Util">
+      <UniqueIdentifier>{895763a9-4236-4e09-8186-e85783c3fa32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Util">
+      <UniqueIdentifier>{e452513c-fc85-4523-990c-493bad4b2d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Scene">
+      <UniqueIdentifier>{c2ce1821-91b1-4698-a5ea-7a7e4b27672e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Manager">
+      <UniqueIdentifier>{0d6374ab-4ba9-4236-88fb-39f5c254921b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Entity\Bullet.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity\Enemy.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity\Entity.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity\Player.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Manager\SceneManager.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene\GameScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene\ResultScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene\TitleScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Util\Time.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Bullet.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Enemy.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Entity.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Player.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Time.cpp">
+      <Filter>ソース ファイル\Util</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity\Bullet.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Common.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Entity</Filter>
     </ClInclude>
     <ClInclude Include="Entity\Enemy.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene\GameScene.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Entity</Filter>
     </ClInclude>
     <ClInclude Include="Entity\Entity.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Manager\InputManager.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity\Object.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Entity</Filter>
     </ClInclude>
     <ClInclude Include="Entity\Player.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Entity</Filter>
     </ClInclude>
-    <ClInclude Include="Util\Point.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\PoolAllocator.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene\ResultScene.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene\Scene.h">
-      <Filter>ヘッダーファイル</Filter>
+    <ClInclude Include="Manager\InputManager.h">
+      <Filter>ヘッダーファイル\Manager</Filter>
     </ClInclude>
     <ClInclude Include="Manager\SceneManager.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Util\Time.h">
-      <Filter>ヘッダーファイル</Filter>
+    <ClInclude Include="Util\PoolAllocator.h">
+      <Filter>ヘッダーファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Common.h">
+      <Filter>ヘッダーファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameScene.h">
+      <Filter>ヘッダーファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Object.h">
+      <Filter>ヘッダーファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Point.h">
+      <Filter>ヘッダーファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>ヘッダーファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene.h">
+      <Filter>ヘッダーファイル\Scene</Filter>
     </ClInclude>
     <ClInclude Include="Scene\TitleScene.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Time.h">
+      <Filter>ヘッダーファイル\Util</Filter>
     </ClInclude>
     <ClInclude Include="Util\Vec2.h">
-      <Filter>ヘッダーファイル</Filter>
+      <Filter>ヘッダーファイル\Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
